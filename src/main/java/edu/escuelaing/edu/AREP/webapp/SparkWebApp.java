@@ -11,7 +11,7 @@ import java.util.List;
 import static spark.Spark.get;
 import static spark.Spark.port;
 
-class SparkWebApp {
+public class SparkWebApp {
 
     private static String Mean;
 
