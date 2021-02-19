@@ -7,15 +7,15 @@ public class Calculator {
 
     public static String Results(String trigo, Double number){
         Double salida = 0.0;
-        if (trigo=="tan" || trigo=="TAN"){
+        if (trigo.equals("tan") || trigo.equals("TAN")){
 
             salida= Math.tan(number);
         }
-        if (trigo=="cos" || trigo=="COS"){
+        if (trigo.equals("cos") || trigo.equals("COS")){
 
             salida= Math.cos(number);
         }
-        if (trigo=="sen" || trigo=="SEN"){
+        if (trigo.equals("sen") || trigo.equals("SEN")){
             salida= Math.sin(number);
         }
 
